@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tf">34dp</dimen>
+    <dimen name="one_eight_zero">180dp</dimen>
+    <dimen name="three_zero">30dp</dimen>
+    <dimen name="eight">8sp</dimen>
+    <dimen name="two">2dp</dimen>
+    <dimen name="one_six">16dp</dimen>
+    <dimen name="one_eight">18sp</dimen>
+    <dimen name="two_four">24dp</dimen>
+    <dimen name="four_four">44dp</dimen>
+    <dimen name="four_zero">40dp</dimen>
+    <dimen name="eight_dp">8dp</dimen>
+    <dimen name="three_four">34dp</dimen>
+
+</resources>

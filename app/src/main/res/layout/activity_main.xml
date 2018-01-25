@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrol"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bacgro_yello"
+        android:orientation="vertical"
+        tools:context="com.example.android.justjava3.MainActivity">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/one_eight_zero"
+            android:layout_marginLeft="@dimen/three_zero"
+            android:layout_marginRight="@dimen/three_zero"
+            android:layout_marginTop="@dimen/eight"
+            android:src="@drawable/ttq" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:layout_marginBottom="@dimen/one_six"
+            android:layout_marginTop="@dimen/eight"
+            android:background="@color/viewgreen" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/one_six"
+            android:layout_marginLeft="@dimen/one_six"
+            android:text="@string/q1"
+            android:textColor="@color/textgreen"
+            android:textSize="@dimen/one_eight"
+            android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/RGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/two_four"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/c"
+                android:textSize="@dimen/one_six" />
+
+            <RadioButton
+                android:id="@+id/java"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/two_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/java"
+                android:textSize="@dimen/one_six" />
+
+            <RadioButton
+                android:id="@+id/prolog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/two_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/prolog"
+                android:textSize="@dimen/one_six" />
+
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:layout_marginBottom="@dimen/one_six"
+            android:layout_marginTop="@dimen/one_six"
+            android:background="@color/viewgreen" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/one_six"
+            android:layout_marginLeft="@dimen/one_six"
+            android:layout_marginTop="@dimen/eight"
+            android:text="@string/q2"
+            android:textColor="@color/textgreen"
+            android:textSize="@dimen/one_eight"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/answer_company_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/two_four"
+            android:layout_marginRight="@dimen/one_six"
+            android:hint="@string/company_name"
+            android:inputType="textCapWords" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginTop="@dimen/one_six"
+            android:background="@color/viewgreen" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/one_six"
+            android:layout_marginLeft="@dimen/one_six"
+            android:layout_marginTop="@dimen/one_six"
+            android:text="@string/Q3"
+            android:textColor="@color/textgreen"
+            android:textSize="@dimen/one_eight"
+            android:textStyle="bold" />
+
+
+        <RadioGroup
+            android:id="@+id/RGroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/two_four"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/security"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/security"
+                android:textSize="@dimen/one_six" />
+
+            <RadioButton
+                android:id="@+id/data_transmission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/data_transmission"
+                android:textSize="@dimen/one_six" />
+
+
+            <RadioButton
+                android:id="@+id/monitorinm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/monitoring"
+                android:textSize="@dimen/one_six" />
+
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginTop="@dimen/eight"
+            android:background="@color/viewgreen" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/one_six"
+            android:layout_marginLeft="@dimen/one_six"
+            android:layout_marginTop="@dimen/one_six"
+            android:text="@string/Q4"
+            android:textColor="@color/textgreen"
+            android:textSize="@dimen/one_eight"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <CheckBox
+                android:id="@+id/gif"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/two_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/gif"
+                android:textSize="@dimen/one_six" />
+
+            <CheckBox
+                android:id="@+id/mp3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/four_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/mp3"
+                android:textSize="@dimen/one_six" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/html"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/two_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/html"
+                android:textSize="@dimen/one_six" />
+
+            <CheckBox
+                android:id="@+id/jpeg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/four_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/jpeg"
+                android:textSize="@dimen/one_six" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginTop="@dimen/eight"
+            android:background="@color/viewgreen" />
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/one_six"
+            android:layout_marginLeft="@dimen/one_six"
+            android:layout_marginTop="@dimen/one_six"
+            android:text="@string/Q5"
+            android:textColor="@color/textgreen"
+            android:textSize="@dimen/one_eight"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/answer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/two_four"
+            android:hint="@string/name"
+            android:inputType="textCapWords" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginTop="@dimen/eight"
+            android:background="@color/viewgreen" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/one_six"
+            android:layout_marginLeft="@dimen/one_six"
+            android:layout_marginTop="@dimen/one_six"
+            android:text="@string/Q6"
+            android:textColor="@color/textgreen"
+            android:textSize="@dimen/one_eight"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/mysql"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/two_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/mysql"
+                android:textSize="@dimen/one_six" />
+
+            <CheckBox
+                android:id="@+id/oracle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/four_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/oracle"
+                android:textSize="@dimen/one_six" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cobol"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/two_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/cobol"
+                android:textSize="@dimen/one_six" />
+
+            <CheckBox
+                android:id="@+id/sybase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/four_four"
+                android:paddingLeft="@dimen/two_four"
+                android:text="@string/sybase"
+                android:textSize="@dimen/one_six" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/two"
+            android:layout_marginBottom="@dimen/two_four"
+            android:layout_marginTop="@dimen/two_four"
+            android:background="@color/viewgreen" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/eight"
+                android:layout_marginLeft="@dimen/one_six"
+                android:background="@color/viewgreen"
+                android:onClick="calculateScore"
+                android:text="@string/score" />
+
+
+            <Button
+                android:id="@+id/reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/eight"
+                android:layout_marginLeft="@dimen/four_zero"
+                android:background="@color/buttonred"
+                android:onClick="reset"
+                android:text="@string/reset" />
+
+            <Button
+                android:id="@+id/show_answers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/eight_dp"
+                android:layout_marginLeft="@dimen/three_four"
+                android:layout_marginRight="@dimen/one_six"
+                android:background="@color/viewgreen"
+                android:onClick="answer"
+                android:text="@string/answers" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

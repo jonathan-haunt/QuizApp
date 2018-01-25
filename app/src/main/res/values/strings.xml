@@ -1,0 +1,37 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Quiz App</string>
+    <string name="q1">Q1. Which one programming language is \n \t \t \t \t used for artificial intelligence?</string>
+
+    <string name="q2">Q2. \'Do no evil\' is which company\'s \n \t \t \t \t tagline?</string>
+    <string name="Q3">Q3. Firewall in computer is used for ?</string>
+    <string name="c">C</string>
+    <string name="java">Java</string>
+    <string name="prolog">Prolog</string>
+    <string name="company_name">Company Name</string>
+    <string name="security">Security</string>
+    <string name="data_transmission">Data Transmission</string>
+    <string name="monitoring">Monitoring</string>
+    <string name="Q4">Q4. which two of the following are \n \t  \t \t \t correct   image file extension ?</string>
+    <string name="gif">GIF \t \t \t \t </string>
+    <string name="mp3">MP3  </string>
+    <string name="html">HTML \t </string>
+    <string name="jpeg">JPEG</string>
+    <string name="Q5">Q5.Who invented java language?</string>
+    <string name="name">Name</string>
+    <string name="Q6">Q6. which three of the following are \n \t \t \t \t database   management software?</string>
+    <string name="mysql">MySQL</string>
+    <string name="oracle">Oracle</string>
+    <string name="cobol">COBOL</string>
+    <string name="sybase">Sybase</string>
+    <string name="score">Score</string>
+    <string name="reset">reset</string>
+    <string name="answers">Answers</string>
+    <string name="job">nie job</string>
+    <string name="gosling">Gosling</string>
+    <string name="j_gosling">James Gosling</string>
+    <string name="google">Google</string>
+    <string name="ur_score">your score is</string>
+    <string name="outof6">out of 6</string>
+
+
+</resources>
